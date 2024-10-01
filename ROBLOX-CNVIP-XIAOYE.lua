@@ -38,7 +38,7 @@ if isLocalPlayerWhitelisted then
         Text = "玩家:"..localPlayer.Name.."，检测完毕白名单玩家，稍后会加载脚本",
         Duration = 7,
     })
-     loadstring(game:HttpGet("https://pastebin.com/raw/sEhTteqW"))()
+     loadstring(game:HttpGet("https://pastebin.com/raw/1syg13nW"))()
 else
     localPlayer:Kick("你没有被加入白名单，请到QQ群515966991获得")
 end
