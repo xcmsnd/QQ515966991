@@ -9,27 +9,7 @@ CoreGui:SetCore("SendNotification", {
 local StarterGui = game:GetService("StarterGui")
 local Players = game:GetService("Players")
 local WhitelistedPlayers = {
-    ["DFTRQ24"] = true,
-    ["yyfhi114514"] = true,
-    ["roblox_laoba"] = true,
-    ["lishaoyushuai"] = true,
-    ["yyfhi114514"] = true,
-    ["yuhdtgvdhj"] = true,
-    ["hfhchbch"] = true,
-    ["qwe112233445566777"] = true,
-    ["FengY4"] = true,
-    ["hjxjfufudu"] = true,
-    ["siwj114514szgg"] = true,
-    ["shsjshs666"] = true,
-    ["zbyd999"] = true,
-    ["dhhfj990"] = true,
-    ["ChinaAser666"] = true,
-    ["qwertyui36529"] = true,
-    ["123ligcmi"] = true,
-    ["zhu123456han"] = true,
-    ["CEXC114514"] = true,
-    ["123kio8"] = true,
-    ["tfgjvgcg"] = true,
+    
 }
 
 local function IsWhitelisted(player)
@@ -46,7 +26,7 @@ if isLocalPlayerWhitelisted then
         Text = "玩家:"..localPlayer.Name.."，检测完毕白名单玩家，稍后会加载脚本",
         Duration = 7,
     })
-     loadstring(game:HttpGet("https://pastebin.com/raw/1syg13nW"))()
+     
 else
     localPlayer:Kick("你没有被加入白名单，请到QQ群515966991获得")
 end
