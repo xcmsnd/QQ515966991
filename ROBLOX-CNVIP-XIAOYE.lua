@@ -25,10 +25,9 @@ local isLocalPlayerWhitelisted = IsWhitelisted(localPlayer)
 if isLocalPlayerWhitelisted then
     StarterGui:SetCore("SendNotification", {
         Title = "白名单认证",
-        Text = "玩家:"..localPlayer.Name.."，检测完毕白名单玩家，稍后会加载脚本",
+        Text = "玩家:"..localPlayer.Name.."，检测完毕尊贵的白名单玩家，稍后会加载脚本",
         Duration = 7,
     })
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/XIAO-YE.lua"))()
-else
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/XIAOYE-YE.lua"))()
     localPlayer:Kick("你没有被加入白名单，请加qq3108792043获得")
 end
