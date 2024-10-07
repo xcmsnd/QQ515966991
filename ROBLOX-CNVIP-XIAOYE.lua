@@ -6,12 +6,13 @@ CoreGui:SetCore("SendNotification", {
     Duration = 3, 
     wait（“4”）
 })
-wait（“4”）
+
 local StarterGui = game:GetService("StarterGui")
 local Players = game:GetService("Players")
 local WhitelistedPlayers = {
     ["DFTRQ24"] = true,
     ["DuffyNB"] = true,
+    wait（“4”）
 }
 
 local function IsWhitelisted(player)
