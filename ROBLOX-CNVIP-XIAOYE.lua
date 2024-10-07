@@ -3,7 +3,8 @@ local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "确认身份",
     Text = "正在验证....",
-    Duration = 3, 
+    Duration = 4, 
+    wait（“3”）
 })
 
 local StarterGui = game:GetService("StarterGui")
