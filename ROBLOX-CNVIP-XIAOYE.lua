@@ -12,7 +12,7 @@ local Players = game:GetService("Players")
 local WhitelistedPlayers = {
     ["DFTRQ24"] = true,
     ["DuffyNB"] = true,
-)
+}
 
 local function IsWhitelisted(player)
     return WhitelistedPlayers[player.Name] or false
