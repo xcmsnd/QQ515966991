@@ -28,6 +28,10 @@ if isLocalPlayerWhitelisted then
         Duration = 7,
     })
      loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/XIAOYE-YE.lua"))()
-else
-    localPlayer:Kick("你没有被加入白名单，请加QQ3108792043获得")
+else StarterGui:SetCore("SendNotification", {
+        Title = "未加入白名单",
+        Text = "玩家:"..localPlayer.Name.."，未加入黑名单，自动加载公益版",
+        Duration = 7,
+    })
+      loadstring(game:HttpGet("https://pastebin.com/raw/3rrU4cnx"))()
 end
