@@ -28,10 +28,11 @@ if isLocalPlayerWhitelisted then
         Duration = 7,
     })
      loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/ROBLOX-XIAOYE-www..lua"))()
-else StarterGui:SetCore("SendNotification", {
-        Title = "未加入白名单",
-        Text = "玩家:"..localPlayer.Name.."，未加入黑名单，自动加载公益版",
+else
+    StarterGui:SetCore("SendNotification", {
+        Title = "未有白名单",
+        Text = "玩家:"..localPlayer.Name.."，检测到不是白名单玩家，稍后会加载公益脚本",
         Duration = 7,
     })
-      loadstring(game:HttpGet("https://pastebin.com/raw/3rrU4cnx"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3rrU4cnx"))()
 end
