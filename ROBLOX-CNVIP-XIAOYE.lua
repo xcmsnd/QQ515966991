@@ -4,7 +4,6 @@ CoreGui:SetCore("SendNotification", {
     Title = "确认身份",
     Text = "正在验证....",
     Duration = 4, 
-    wait（“3”）
 })
 
 local StarterGui = game:GetService("StarterGui")
@@ -12,6 +11,7 @@ local Players = game:GetService("Players")
 local WhitelistedPlayers = {
     ["DFTRQ24"] = true,
     ["DuffyNB"] = true,
+    ["shsjshs666"] = true,
 }
 
 local function IsWhitelisted(player)
