@@ -20,6 +20,7 @@ local WhitelistedPlayers = {
     ["gwnhnys"] = true,
     ["chrbfg5"] = true,
     ["qwermk35"] = true,
+    ["zbyd999"] = true,
 }
 
 local function IsWhitelisted(player)
@@ -30,7 +31,7 @@ local localPlayer = Players.LocalPlayer
 
 local isLocalPlayerWhitelisted = IsWhitelisted(localPlayer)
 
-if isLocalPlayerWhitelisted then
+if isLocalPlyerWhitelisted then
     StarterGui:SetCore("SendNotification", {
         Title = "白名单认证",
         Text = "玩家:"..localPlayer.Name.."，检测完毕尊贵的白名单玩家，稍后会加载脚本",
