@@ -31,7 +31,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "叶脚本"; 
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "叶脚本祝您玩的愉快"; Text =""; Duration = 2; })wait("2")
 
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "叶脚本"; Text ="载入成功"; Duration = 2; }
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "叶脚本"; Text ="载入成功"; Duration = 2; })
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "叶脚本"; Text ="目前不支持fl注入器"; Duration = 2; })
 
