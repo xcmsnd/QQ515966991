@@ -562,7 +562,7 @@ end)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 end)
 
-    creditsb:Slider('修改重力', 'GravitySlider', 198, 198, 99999,false,function(Value)
+    creditsb:Slider('修改重量', 'GravitySlider', 198, 198, 99999,false,function(Value)
     game.Workspace.Gravity = Value
 end)
 
@@ -596,6 +596,61 @@ creditsb:Button(
 creditsb:Button(
         "Ohio Vs",
         function()          loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\115\99\114\105\112\116\115\46\118\105\115\117\114\117\115\46\100\101\118\47\111\104\105\111\47\115\111\117\114\99\101"))()
+        end
+    )
+
+credits:Button(
+        "零件透视",
+        function()
+              while true do
+            for i,l in pairs(game:GetService('Workspace').Game.Entities.ItemPickup:GetChildren()) do
+                for i,v in pairs(l:GetChildren()) do
+                    if v.ClassName == 'MeshPart' or 'Part' then
+                        for i,e in pairs(v:GetChildren()) do
+                            if e.ClassName == 'ProximityPrompt' then
+                                if e.ObjectText == 'door' or e.ObjectText == 'door' or e.ObjectText == 'door' or e.ObjectText == 'door' or e.ObjectText == 'Scrap' then
+                                    xd = Instance.new('BillboardGui')
+                                    xd.Parent = v
+                                    xd.AlwaysOnTop = true
+                                    xd.Size = UDim2.new(0, 100, 0, 25)
+                                    Frame = Instance.new('Frame')
+                                    Frame.Parent = xd
+                                    Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+                                    Frame.Size = UDim2.new(1, 0, 1, 0)
+                                    Frame.BackgroundTransparency = 1
+                                    text = Instance.new('TextLabel')
+                                    text.TextScaled = true
+                                    text.BackgroundColor3 = Color3.new(255, 0, 0)
+                                    text.Parent = Frame
+                                    text.Text = e.ObjectText
+                                    text.Size = UDim2.new(1, 0, 1, 0)
+                                    text.BackgroundTransparency = 1
+                                    text.TextColor3 = Color3.new(1, 1, 1)
+                                else
+
+                                end
+                            end
+        
+                        end
+        
+                    end
+        
+        
+                end
+            end
+            wait()
+            for i,v in pairs (game:GetService('Workspace').Game.Entities.ItemPickup:GetChildren()) do
+                for i,k in pairs(v:GetChildren()) do
+                    for i,l in pairs(k:GetChildren()) do
+                        if l.ClassName == 'BillboardGui' then
+                            l:Remove()
+                        end
+                    end
+                end
+            end
+        
+        end
+    end          
         end
     )
 
@@ -2728,6 +2783,20 @@ local credits = creds:section("极速传奇", true)
 credits:Button(
         "极速传奇",
         function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/GoodScript/main/LegendOfSpeed(Chinese)"))()     
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/GoodScript/main/LegendOfSpeed(Chinese)"))()    
+        end
+    )
+credits:Button(
+        "叶脚本",
+        function()
+      loadstring(game:HttpGet("https://pastebin.com/dz3iS6gw"))()      
+        end
+    )
+local creds = window:Tab("力量传奇",'7733993211')
+local credits = creds:section("力量传奇", true)    
+credits:Button(
+        "叶脚本",
+        function()
+       loadstring(game:HttpGet("https://pastebin.com/niGCS1K5"))()     
         end
     )
