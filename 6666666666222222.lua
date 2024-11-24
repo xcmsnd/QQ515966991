@@ -48,7 +48,7 @@ end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
 
-local ui = loadstring(game:HttpGet("https://pastebin.com/raw/cdgGZH0N"))();		
+local ui = loadstring(game:HttpGet("https://pastebin.com/ras3EHRs"))();		
 local win = ui:new("叶脚本")
 --
 local UITab1 = win:Tab("信息",'123097590035361')
