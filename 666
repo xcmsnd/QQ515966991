@@ -650,8 +650,8 @@ credits:Button(
             end
         
         end
-    end          
-        end
+             
+       end
     )
 
 local creds = window:Tab("造船寻宝", "7733765398")
@@ -2692,8 +2692,6 @@ credits:Button(
         function()
        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7, 3, 108)
 end)     
-        end
-    )
 
 credits:Button("传送到安全岛",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-39, 10, 1838)
