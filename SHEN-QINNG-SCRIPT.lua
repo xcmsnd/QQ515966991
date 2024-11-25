@@ -68,25 +68,9 @@ Start.TextWrapped = true
 
 Start.MouseButton1Click:Connect(function()
     if Key.Text == "神青最帅" then
-        ScreenGui:Destroy()
-      local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/SePpsSPZ'))()
+    
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/SHEN-QINNG-SCRIPT-YE.lua"))()
 
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "神青脚本"; Text ="卡密验证成功"; Duration = 1; })wait("3")
-local Window = OrionLib:MakeWindow({Name = "卡密验证", HidePremium = false, SaveConfig = false, IntroText = "欢迎使用", ConfigFolder = "欢迎使用"})
-
-local Tab = Window:MakeTab({
-	Name = "打开脚本",
-	Icon = "rbxassetid://10527577695",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "打开神青脚本",
-	Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/SHEN-QINNG-SCRIPT.lua"))()
- 	end    
-})
-
-OrionLib:Init()
     else
         game.Players.LocalPlayer:Kick("请前往神青脚本主群获得卡密928950173，人满了加二群1003591865")
     end
