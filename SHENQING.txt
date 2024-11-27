@@ -28,5 +28,5 @@ if isLocalPlayerWhitelisted then
     })
      loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/SHEN-QINNG-SCRIPT.lua"))()
 else
-    localPlayer:Kick("你没有被加入白名单，请到QQ群954245344找群主免费获得白名单")
+    localPlayer:Kick("你没有被加入白名单，请到QQ群1003591865找群主免费获得白名单")
 end
