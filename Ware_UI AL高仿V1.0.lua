@@ -28,7 +28,7 @@ function Ripple(obj)
 		Ripple.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		Ripple.BackgroundTransparency = 1.000
 		Ripple.ZIndex = 8
-		Ripple.Image = "rbxassetid://"
+		Ripple.Image = "rbxassetid://2708891598"
 		Ripple.ImageTransparency = 0.800
 		Ripple.ScaleType = Enum.ScaleType.Fit
 		Ripple.ImageColor3 = Color3.fromRGB(255, 255, 255)
@@ -207,7 +207,7 @@ function library.new(library, name, theme)
 	Open.Size = UDim2.new(0, 66, 0, 66)
 	Open.Active = true
 	Open.Draggable = true
-	Open.Image = ""
+	Open.Image = "rbxassetid://93774288685915"
 	
 	Open.MouseButton1Click:Connect(function()
 		Main.Visible = not Main.Visible
