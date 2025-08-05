@@ -28,7 +28,7 @@ function Ripple(obj)
 		Ripple.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		Ripple.BackgroundTransparency = 1.000
 		Ripple.ZIndex = 8
-		Ripple.Image = "rbxassetid://2708891598"
+		Ripple.Image = "rbxassetid://"
 		Ripple.ImageTransparency = 0.800
 		Ripple.ScaleType = Enum.ScaleType.Fit
 		Ripple.ImageColor3 = Color3.fromRGB(255, 255, 255)
@@ -115,7 +115,7 @@ function drag(frame, hold)
 end
 function library.new(library, name, theme)
 	for _, v in next, services.CoreGui:GetChildren() do
-		if v.Name == "AL V1 -- Make 123fa98" then
+		if v.Name == "" then
 			v:Destroy()
 		end
 	end
@@ -124,7 +124,7 @@ function library.new(library, name, theme)
 		MainColor = Color3.fromRGB(28, 33, 41),
 		TabColor = Color3.fromRGB(28, 33, 41),
 		Bg_Color = Color3.fromRGB(6, 8, 12),
-		Zy_Color = Color3.fromRGB(28, 33, 41), -- 主要颜色
+		Zy_Color = Color3.fromRGB(28, 33, 40), -- 主要颜色
 
 		Button_Color = Color3.fromRGB(0, 4, 21),
 		Textbox_Color = Color3.fromRGB(0, 4, 21),
@@ -207,7 +207,7 @@ function library.new(library, name, theme)
 	Open.Size = UDim2.new(0, 66, 0, 66)
 	Open.Active = true
 	Open.Draggable = true
-	Open.Image = "rbxassetid://93774288685915"
+	Open.Image = ""
 	
 	Open.MouseButton1Click:Connect(function()
 		Main.Visible = not Main.Visible
