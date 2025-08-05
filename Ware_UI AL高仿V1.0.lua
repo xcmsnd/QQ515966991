@@ -115,7 +115,7 @@ function drag(frame, hold)
 end
 function library.new(library, name, theme)
 	for _, v in next, services.CoreGui:GetChildren() do
-		if v.Name == "" then
+		if v.Name == "AL V1 -- Make 123fa98" then
 			v:Destroy()
 		end
 	end
@@ -124,7 +124,7 @@ function library.new(library, name, theme)
 		MainColor = Color3.fromRGB(28, 33, 41),
 		TabColor = Color3.fromRGB(28, 33, 41),
 		Bg_Color = Color3.fromRGB(6, 8, 12),
-		Zy_Color = Color3.fromRGB(28, 33, 40), -- 主要颜色
+		Zy_Color = Color3.fromRGB(28, 33, 41), -- 主要颜色
 
 		Button_Color = Color3.fromRGB(0, 4, 21),
 		Textbox_Color = Color3.fromRGB(0, 4, 21),
