@@ -204,7 +204,7 @@ function library.new(library, name, theme)
 	Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Open.BackgroundTransparency = 1
 	Open.Position = UDim2.new(0.00829315186, 0, 0.13107837, 0)
-	Open.Size = UDim2.new(0, 66, 0, 66)
+	Open.Size = UDim2.new(0, 50, 0, 50)
 	Open.Active = true
 	Open.Draggable = true
 	Open.Image = "rbxassetid://139832793328735"
