@@ -115,7 +115,7 @@ function drag(frame, hold)
 end
 function library.new(library, name, theme)
 	for _, v in next, services.CoreGui:GetChildren() do
-		if v.Name == "AL V1 -- Make 123fa98" then
+		if v.Name == "L l" then
 			v:Destroy()
 		end
 	end
@@ -164,7 +164,7 @@ function library.new(library, name, theme)
 	if syn and syn.protect_gui then
 		syn.protect_gui(dogent)
 	end
-	dogent.Name = "AL V1 -- Make 123fa98"
+	dogent.Name = "L l"
 	dogent.Parent = services.CoreGui
 	function UiDestroy()
 		dogent:Destroy()
@@ -207,7 +207,7 @@ function library.new(library, name, theme)
 	Open.Size = UDim2.new(0, 66, 0, 66)
 	Open.Active = true
 	Open.Draggable = true
-	Open.Image = "rbxassetid://93774288685915"
+	Open.Image = "rbxassetid://139832793328735"
 	
 	Open.MouseButton1Click:Connect(function()
 		Main.Visible = not Main.Visible
